@@ -1,0 +1,75 @@
+{
+  "progress": { "step": "Schritt {{current}} von {{total}}" },
+  "step1": {
+    "title": "Erzähl uns von deinem",
+    "titleHighlight": "kleinen Helden",
+    "subtitle": "Jedes Detail macht die Geschichte magischer und persönlicher.",
+    "childName": "Vorname des Kindes",
+    "childAge": "Alter",
+    "gender": "Geschlecht",
+    "gender_girl": "Mädchen",
+    "gender_boy": "Junge",
+    "gender_other": "Andere",
+    "language": "Sprache der Geschichte",
+    "culture": "Kultureller Hintergrund (optional)",
+    "bestFriend": "Name des besten Freundes (optional)",
+    "pet": "Name des Haustieres (optional)",
+    "favoriteColor": "Lieblingsfarbe",
+    "favoriteFood": "Lieblingsessen (optional)",
+    "hometown": "Heimatstadt (optional)",
+    "placeholder_name": "Emma",
+    "placeholder_food": "Pizza",
+    "placeholder_hometown": "Berlin",
+    "placeholder_friend": "Lukas",
+    "placeholder_pet": "Max"
+  },
+  "step2": {
+    "title": "Lade ein",
+    "titleHighlight": "klares Foto hoch",
+    "subtitle": "Unsere KI illustriert dein Kind als Held auf jeder Seite.",
+    "dropzone": "Foto hierher ziehen oder klicken zum Durchsuchen",
+    "dropzone_sub": "JPG, PNG oder WEBP · Max 10MB · Gesicht klar sichtbar",
+    "changePhoto": "Foto ändern",
+    "photoTips": "Foto-Tipps",
+    "tip1": "Gesicht klar sichtbar und gut beleuchtet",
+    "tip2": "Aktuelles Foto (innerhalb der letzten 2 Jahre)",
+    "tip3": "Gesicht nimmt mindestens 30% des Bildes ein",
+    "tip4": "Keine Sonnenbrille oder Gesichtsbedeckung"
+  },
+  "step3": {
+    "title": "Wähle den",
+    "titleHighlight": "Traumjob",
+    "subtitle": "Das wird der Kern der Geschichte — die heroische Identität deines Kindes."
+  },
+  "step4": {
+    "title": "Gestalte das",
+    "titleHighlight": "Abenteuer",
+    "subtitle": "Wähle ein Story-Thema und einen Kunststil für dein einzigartiges Buch.",
+    "storyTheme": "Story-Thema",
+    "artStyle": "Kunststil",
+    "artStyleNote": "Dies bestimmt, wie alle Illustrationen im Buch aussehen."
+  },
+  "step5": {
+    "title": "Wähle dein",
+    "titleHighlight": "Buchformat",
+    "subtitle": "Jedes Format enthält 16 KI-generierte Illustrationen deines Kindes.",
+    "shipping": "Lieferadresse",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "address": "Straße",
+    "city": "Stadt",
+    "state": "Bundesland / Provinz",
+    "zip": "Postleitzahl",
+    "country": "Land",
+    "orderSummary": "Bestellübersicht",
+    "createBook": "Mein Buch erstellen →",
+    "creating": "Erstelle…",
+    "voiceRecord": "Stimme aufnehmen",
+    "voiceInstructions": "Lies 30 Sekunden lang beliebigen Text natürlich vor. Deine Stimme wird jede Seite des Buches erzählen."
+  },
+  "nav": {
+    "back": "Zurück",
+    "next": "Weiter →",
+    "creating": "Erstelle Magie…"
+  }
+}

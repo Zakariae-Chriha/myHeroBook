@@ -1,0 +1,75 @@
+{
+  "progress": { "step": "Step {{current}} of {{total}}" },
+  "step1": {
+    "title": "Tell us about your",
+    "titleHighlight": "little hero",
+    "subtitle": "Every detail makes the story more magical and personal.",
+    "childName": "Child's first name",
+    "childAge": "Age",
+    "gender": "Gender",
+    "gender_girl": "Girl",
+    "gender_boy": "Boy",
+    "gender_other": "Other",
+    "language": "Story language",
+    "culture": "Cultural background (optional)",
+    "bestFriend": "Best friend's name (optional)",
+    "pet": "Pet's name (optional)",
+    "favoriteColor": "Favourite colour",
+    "favoriteFood": "Favourite food (optional)",
+    "hometown": "Hometown (optional)",
+    "placeholder_name": "Emma",
+    "placeholder_food": "Pizza",
+    "placeholder_hometown": "Paris",
+    "placeholder_friend": "Sophie",
+    "placeholder_pet": "Max"
+  },
+  "step2": {
+    "title": "Upload a",
+    "titleHighlight": "clear photo",
+    "subtitle": "Our AI will illustrate your child as the hero on every page.",
+    "dropzone": "Drag & drop a photo, or click to browse",
+    "dropzone_sub": "JPG, PNG or WEBP · Max 10MB · Face clearly visible",
+    "changePhoto": "Change photo",
+    "photoTips": "Photo tips",
+    "tip1": "Face clearly visible and well-lit",
+    "tip2": "Recent photo (taken in last 2 years)",
+    "tip3": "Face takes up at least 30% of image",
+    "tip4": "No sunglasses or face coverings"
+  },
+  "step3": {
+    "title": "Choose your child's",
+    "titleHighlight": "dream job",
+    "subtitle": "This becomes the core of the story — your child's heroic identity."
+  },
+  "step4": {
+    "title": "Shape the",
+    "titleHighlight": "adventure",
+    "subtitle": "Pick a story theme and art style for your unique book.",
+    "storyTheme": "Story theme",
+    "artStyle": "Art style",
+    "artStyleNote": "This determines how every illustration looks throughout the book."
+  },
+  "step5": {
+    "title": "Choose your",
+    "titleHighlight": "book format",
+    "subtitle": "Every format includes 16 AI-generated illustrations of your child.",
+    "shipping": "Shipping address",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "address": "Street address",
+    "city": "City",
+    "state": "State / Province",
+    "zip": "Postal code",
+    "country": "Country",
+    "orderSummary": "Order summary",
+    "createBook": "Create My Book →",
+    "creating": "Creating…",
+    "voiceRecord": "Record your voice",
+    "voiceInstructions": "Read any text naturally for 30 seconds. Your voice will narrate every page of the book."
+  },
+  "nav": {
+    "back": "Back",
+    "next": "Next →",
+    "creating": "Creating magic…"
+  }
+}

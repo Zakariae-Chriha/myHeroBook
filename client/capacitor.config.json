@@ -1,0 +1,46 @@
+{
+  "appId": "com.herokidsstorylab.app",
+  "appName": "Hero Kids StoryLab",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#0A0E1A",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#C9A84C"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0A0E1A"
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "DARK",
+      "resizeOnFullScreen": true
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.keystore",
+      "keystorePassword": "heroKids2025",
+      "keystoreAlias": "heroKidsKey",
+      "keystoreAliasPassword": "heroKids2025",
+      "releaseType": "APK"
+    }
+  },
+  "ios": {
+    "scheme": "HeroKids"
+  }
+}

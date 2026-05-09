@@ -1,0 +1,75 @@
+{
+  "progress": { "step": "Étape {{current}} sur {{total}}" },
+  "step1": {
+    "title": "Parlez-nous de votre",
+    "titleHighlight": "petit héros",
+    "subtitle": "Chaque détail rend l'histoire plus magique et personnelle.",
+    "childName": "Prénom de l'enfant",
+    "childAge": "Âge",
+    "gender": "Genre",
+    "gender_girl": "Fille",
+    "gender_boy": "Garçon",
+    "gender_other": "Autre",
+    "language": "Langue de l'histoire",
+    "culture": "Origine culturelle (optionnel)",
+    "bestFriend": "Nom du meilleur ami (optionnel)",
+    "pet": "Nom de l'animal (optionnel)",
+    "favoriteColor": "Couleur préférée",
+    "favoriteFood": "Nourriture préférée (optionnel)",
+    "hometown": "Ville natale (optionnel)",
+    "placeholder_name": "Emma",
+    "placeholder_food": "Pizza",
+    "placeholder_hometown": "Paris",
+    "placeholder_friend": "Sophie",
+    "placeholder_pet": "Max"
+  },
+  "step2": {
+    "title": "Téléchargez une",
+    "titleHighlight": "photo claire",
+    "subtitle": "Notre IA illustrera votre enfant comme héros sur chaque page.",
+    "dropzone": "Glissez-déposez une photo ou cliquez pour parcourir",
+    "dropzone_sub": "JPG, PNG ou WEBP · Max 10Mo · Visage clairement visible",
+    "changePhoto": "Changer la photo",
+    "photoTips": "Conseils photo",
+    "tip1": "Visage clairement visible et bien éclairé",
+    "tip2": "Photo récente (prise dans les 2 dernières années)",
+    "tip3": "Le visage occupe au moins 30% de l'image",
+    "tip4": "Pas de lunettes de soleil ni de couvre-visage"
+  },
+  "step3": {
+    "title": "Choisissez le",
+    "titleHighlight": "métier de rêve",
+    "subtitle": "C'est le cœur de l'histoire — l'identité héroïque de votre enfant."
+  },
+  "step4": {
+    "title": "Façonnez",
+    "titleHighlight": "l'aventure",
+    "subtitle": "Choisissez un thème d'histoire et un style artistique pour votre livre unique.",
+    "storyTheme": "Thème de l'histoire",
+    "artStyle": "Style artistique",
+    "artStyleNote": "Cela détermine l'apparence de toutes les illustrations du livre."
+  },
+  "step5": {
+    "title": "Choisissez votre",
+    "titleHighlight": "format de livre",
+    "subtitle": "Chaque format comprend 16 illustrations IA de votre enfant.",
+    "shipping": "Adresse de livraison",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "address": "Adresse",
+    "city": "Ville",
+    "state": "État / Province",
+    "zip": "Code postal",
+    "country": "Pays",
+    "orderSummary": "Récapitulatif",
+    "createBook": "Créer mon livre →",
+    "creating": "Création…",
+    "voiceRecord": "Enregistrez votre voix",
+    "voiceInstructions": "Lisez n'importe quel texte naturellement pendant 30 secondes. Votre voix narrera chaque page du livre."
+  },
+  "nav": {
+    "back": "Retour",
+    "next": "Suivant →",
+    "creating": "Création en cours…"
+  }
+}

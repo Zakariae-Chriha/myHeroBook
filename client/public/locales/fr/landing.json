@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "Premier livre pour enfants illustré par IA avec le vrai visage",
+    "titlePre": "Le livre où",
+    "titleHighlight": "VOTRE Enfant",
+    "titlePost": "est le héros",
+    "subtitle": "L'IA illustre le vrai visage de votre enfant en tant que héros d'une aventure personnalisée de 32 pages — disponible en PDF numérique ou en livre relié premium.",
+    "cta": "Créer votre livre",
+    "ctaSub": "5 minutes pour démarrer · Aperçu avant de payer",
+    "socialProof": "Adoré par plus de 10 000 familles",
+    "scrollDown": "Faites défiler pour explorer"
+  },
+  "howItWorks": {
+    "badge": "Simple et Magique",
+    "title": "De la photo au livre publié",
+    "titleSub": "en quelques minutes",
+    "subtitle": "Aucune compétence en design requise. Pas d'attente de semaines. Juste de la magie personnalisée pure.",
+    "cta": "Commencer gratuitement",
+    "ctaSub": "Aucune carte de crédit requise",
+    "steps": {
+      "1": { "title": "Téléchargez une photo", "description": "Téléchargez une photo claire du visage de votre enfant. Notre IA reconnaît et illustre ses vraies caractéristiques sur chaque page." },
+      "2": { "title": "Choisissez l'aventure", "description": "Choisissez un métier de rêve, un thème d'histoire, et personnalisez avec le nom du meilleur ami, l'animal, la couleur préférée — chaque détail intégré." },
+      "3": { "title": "L'IA crée la magie", "description": "Claude AI écrit une histoire unique de 32 pages. Replicate AI illustre votre enfant en tant que héros sur chaque page. 100% original." },
+      "4": { "title": "Recevez la magie", "description": "Téléchargez instantanément en PDF, ou recevez un livre relié à votre porte — optionnellement narré dans votre propre voix clonée." }
+    }
+  },
+  "pricing": {
+    "badge": "Tarification simple",
+    "title": "Choisissez votre",
+    "titleHighlight": "magie",
+    "subtitle": "Chaque niveau comprend une histoire 100% unique écrite par IA avec le vrai visage de votre enfant tout au long.",
+    "addons": "Ajouts optionnels disponibles lors du paiement",
+    "monthlyPlan": "Abonnement mensuel",
+    "yearlyPlan": "Annuel",
+    "popular": "⭐ Le plus populaire",
+    "tiers": {
+      "digital": { "cta": "Obtenir le livre numérique" },
+      "printed": { "cta": "Obtenir le livre imprimé" },
+      "voice": { "cta": "Obtenir le livre voix magique" }
+    }
+  },
+  "faq": {
+    "badge": "Des questions ?",
+    "title": "Questions fréquemment",
+    "titleHighlight": "posées",
+    "readyTitle": "Prêt à créer la magie ?",
+    "readyDesc": "L'aventure de votre enfant attend. Il faut 5 minutes pour configurer et 15 minutes pour générer. Commencez gratuitement aujourd'hui.",
+    "readyCta": "Créez votre livre maintenant",
+    "readyFooter": "Aucune carte de crédit requise · Aperçu avant de payer · Garantie de remboursement complète",
+    "items": [
+      { "q": "Comment mon enfant est-il illustré sur chaque page ?", "a": "Nous utilisons la technologie IP-Adapter combinée avec Stable Diffusion XL (via Replicate). Vous téléchargez une photo claire du visage de votre enfant. L'IA extrait ses traits faciaux et les illustre de manière cohérente sur les 32 pages dans le style artistique choisi." },
+      { "q": "Comment fonctionne le clonage vocal ? Est-ce sécurisé ?", "a": "Vous enregistrez seulement 30 secondes de votre voix naturelle. ElevenLabs crée un clone professionnel de votre voix, utilisé pour narrer les 32 pages. Le clone est stocké uniquement sur votre compte et n'est jamais partagé." },
+      { "q": "Combien de temps faut-il pour générer un livre ?", "a": "La génération de l'histoire prend environ 30 secondes. La génération des images (32 pages) prend 8 à 15 minutes. Vous recevrez un e-mail dès que votre livre sera prêt." },
+      { "q": "Chaque livre est-il vraiment unique ?", "a": "Chaque livre est 100% unique. Claude AI génère une nouvelle histoire à chaque fois en utilisant le nom, l'âge, le métier, le thème spécifiques de l'enfant et bien plus encore." },
+      { "q": "Quelle qualité de photo dois-je télécharger ?", "a": "N'importe quelle photo récente et claire où le visage de l'enfant est visible et bien éclairé. Le visage devrait idéalement occuper au moins 30% de la photo." },
+      { "q": "Comment le livre imprimé est-il livré ?", "a": "Les livres imprimés sont produits par Gelato, notre partenaire mondial d'impression à la demande avec des installations dans 32 pays. Livraison en 5 à 7 jours ouvrables standard dans une boîte cadeau premium." },
+      { "q": "Puis-je commander dans une autre langue que l'anglais ?", "a": "Oui — nous supportons plus de 50 langues. L'histoire est générée directement dans la langue choisie par le modèle multilingue de Claude." },
+      { "q": "Puis-je prévisualiser le livre avant de payer ?", "a": "Oui. Après la génération par l'IA, vous pouvez prévisualiser les 32 pages avant de choisir votre niveau et de compléter le paiement." },
+      { "q": "Quelle est votre politique de remboursement ?", "a": "Livres numériques : remboursement complet dans les 24 heures si vous n'avez pas téléchargé le fichier. Livres imprimés : réimpression ou remboursement complet si la qualité d'impression est endommagée." }
+    ]
+  }
+}

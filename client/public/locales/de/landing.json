@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "Welterstes KI-illustriertes Kinderbuch mit echtem Gesicht",
+    "titlePre": "Das Buch, in dem",
+    "titleHighlight": "DEIN Kind",
+    "titlePost": "der Held ist",
+    "subtitle": "KI illustriert das echte Gesicht deines Kindes als Held eines 32-seitigen personalisierten Abenteuers — als digitales PDF oder Premium-Hardcover.",
+    "cta": "Dein Buch erstellen",
+    "ctaSub": "5 Minuten zum Einrichten · Vorschau vor der Zahlung",
+    "socialProof": "Von 10.000+ Familien geliebt",
+    "scrollDown": "Scroll zum Erkunden"
+  },
+  "howItWorks": {
+    "badge": "Einfach & Magisch",
+    "title": "Vom Foto zum veröffentlichten Buch",
+    "titleSub": "in Minuten",
+    "subtitle": "Keine Design-Kenntnisse nötig. Keine wochenlange Wartezeit. Nur pure personalisierte Magie.",
+    "cta": "Kostenlos loslegen",
+    "ctaSub": "Keine Kreditkarte erforderlich",
+    "steps": {
+      "1": { "title": "Foto hochladen", "description": "Lade ein klares Foto des Gesichts deines Kindes hoch. Unsere KI erkennt und illustriert seine echten Merkmale auf jeder Seite." },
+      "2": { "title": "Das Abenteuer wählen", "description": "Wähle einen Traumjob, ein Story-Thema und personalisiere mit dem Namen des besten Freundes, Haustier, Lieblingsfarbe — jedes Detail eingewoben." },
+      "3": { "title": "KI erschafft die Magie", "description": "Claude AI schreibt eine einzigartige 32-seitige Geschichte. Replicate AI illustriert dein Kind auf jeder Seite als Held. 100% original." },
+      "4": { "title": "Erhalte die Magie", "description": "Sofortiger Download als PDF oder Hardcover-Lieferung — optional in deiner eigenen geklonten Stimme erzählt." }
+    }
+  },
+  "pricing": {
+    "badge": "Einfache Preise",
+    "title": "Wähle deine",
+    "titleHighlight": "Magie",
+    "subtitle": "Jede Stufe enthält eine 100% einzigartige KI-geschriebene Geschichte mit dem echten Gesicht deines Kindes.",
+    "addons": "Optionale Extras bei der Kasse erhältlich",
+    "monthlyPlan": "Monatsplan",
+    "yearlyPlan": "Jährlich",
+    "popular": "⭐ Am beliebtesten",
+    "tiers": {
+      "digital": { "cta": "Digitales Buch holen" },
+      "printed": { "cta": "Gedrucktes Buch holen" },
+      "voice": { "cta": "Magic Voice Buch holen" }
+    }
+  },
+  "faq": {
+    "badge": "Noch Fragen?",
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "readyTitle": "Bereit, die Magie zu erschaffen?",
+    "readyDesc": "Das Abenteuer deines Kindes wartet. 5 Minuten zum Einrichten, 15 Minuten zum Generieren. Starte noch heute kostenlos.",
+    "readyCta": "Dein Buch jetzt erstellen",
+    "readyFooter": "Keine Kreditkarte erforderlich · Vorschau vor der Zahlung · Volle Rückgabegarantie",
+    "items": [
+      { "q": "Wie wird mein Kind auf jeder Seite illustriert?", "a": "Wir verwenden IP-Adapter-Technologie kombiniert mit Stable Diffusion XL (via Replicate). Du lädst ein klares Foto des Gesichts deines Kindes hoch. Die KI extrahiert die Gesichtszüge und illustriert sie konsequent auf allen 32 Seiten." },
+      { "q": "Wie funktioniert das Stimmklonen? Ist es sicher?", "a": "Du nimmst nur 30 Sekunden deiner natürlichen Stimme auf. ElevenLabs erstellt einen professionellen Klon deiner Stimme, der für alle 32 Seiten verwendet wird. Der Klon ist nur auf deinem Konto gespeichert und wird nie geteilt." },
+      { "q": "Wie lange dauert die Buchgenerierung?", "a": "Die Story-Generierung dauert ca. 30 Sekunden. Die Bildgenerierung (32 Seiten) dauert 8–15 Minuten. Du erhältst eine E-Mail, sobald dein Buch fertig ist." },
+      { "q": "Ist jedes Buch wirklich einzigartig?", "a": "Jedes Buch ist 100% einzigartig. Claude AI generiert jedes Mal eine komplett neue Geschichte unter Verwendung des spezifischen Namens, Alters, Berufs und Themas des Kindes." },
+      { "q": "Welche Fotoqualität brauche ich?", "a": "Jedes aktuelle, klare Foto, auf dem das Gesicht des Kindes gut sichtbar und beleuchtet ist. Das Gesicht sollte idealerweise mindestens 30% des Fotos ausfüllen." },
+      { "q": "Wie wird das gedruckte Buch geliefert?", "a": "Gedruckte Bücher werden von Gelato mit Druckstandorten in 32 Ländern erfüllt. Standardlieferung in 5–7 Werktagen in einer Premium-Geschenkbox." },
+      { "q": "Kann ich in einer anderen Sprache als Englisch bestellen?", "a": "Ja — wir unterstützen 50+ Sprachen. Die Geschichte wird direkt in der gewählten Sprache durch Claudes mehrsprachiges Modell generiert." },
+      { "q": "Kann ich das Buch vor der Zahlung vorschauen?", "a": "Ja. Nach der KI-Generierung kannst du alle 32 Seiten ansehen, bevor du zahlst. Du zahlst erst, wenn dir das Ergebnis gefällt." },
+      { "q": "Was ist eure Rückgaberichtlinie?", "a": "Digitale Bücher: volle Erstattung innerhalb von 24 Stunden, wenn du die Datei nicht heruntergeladen hast. Gedruckte Bücher: vollständiger Neudruck oder Erstattung bei beschädigter Druckqualität." }
+    ]
+  }
+}

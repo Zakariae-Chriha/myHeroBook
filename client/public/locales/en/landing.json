@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "World's first AI face-illustrated children's book",
+    "titlePre": "The Book Where",
+    "titleHighlight": "YOUR Child",
+    "titlePost": "is the Hero",
+    "subtitle": "AI illustrates your child's real face as the hero of a 32-page personalised adventure — available as a digital PDF or premium hardcover book.",
+    "cta": "Create Your Book",
+    "ctaSub": "5 minutes to set up · Preview before you pay",
+    "socialProof": "Loved by 10,000+ families",
+    "scrollDown": "Scroll to explore"
+  },
+  "howItWorks": {
+    "badge": "Simple & Magical",
+    "title": "From Photo to Published Book",
+    "titleSub": "in Minutes",
+    "subtitle": "No design skills needed. No waiting weeks. Just pure personalised magic.",
+    "cta": "Start Creating for Free",
+    "ctaSub": "No credit card required to start",
+    "steps": {
+      "1": { "title": "Upload a Photo", "description": "Upload any clear photo of your child's face. Our AI recognises and illustrates their real features into every page." },
+      "2": { "title": "Choose the Adventure", "description": "Pick a dream job, story theme, and personalise with their best friend's name, pet, favourite colour — every detail woven in." },
+      "3": { "title": "AI Creates the Magic", "description": "Claude AI writes a unique 32-page story. Replicate AI illustrates your child as the hero on every single page. 100% original." },
+      "4": { "title": "Receive the Magic", "description": "Download instantly as a PDF, or receive a printed hardcover at your door — optionally narrated in your own cloned voice." }
+    }
+  },
+  "pricing": {
+    "badge": "Simple Pricing",
+    "title": "Choose Your",
+    "titleHighlight": "Magic",
+    "subtitle": "Every tier includes a 100% unique AI-written story with your child's real face illustrated throughout.",
+    "addons": "Optional add-ons available at checkout",
+    "monthlyPlan": "Monthly plan",
+    "yearlyPlan": "Yearly",
+    "popular": "⭐ Most Popular",
+    "tiers": {
+      "digital": { "cta": "Get Digital Book" },
+      "printed": { "cta": "Get Printed Book" },
+      "voice": { "cta": "Get Magic Voice Book" }
+    }
+  },
+  "faq": {
+    "badge": "Got Questions?",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "readyTitle": "Ready to create the magic?",
+    "readyDesc": "Your child's adventure is waiting. It takes 5 minutes to set up and 15 minutes to generate. Start free today.",
+    "readyCta": "Create Your Book Now",
+    "readyFooter": "No credit card required · Preview before you pay · Full refund guarantee",
+    "items": [
+      { "q": "How is my child illustrated into every page?", "a": "We use IP-Adapter technology combined with Stable Diffusion XL (via Replicate). You upload one clear photo of your child's face. The AI extracts their facial features — eye colour, face shape, hair — and consistently illustrates them as the hero throughout all 32 pages in your chosen art style." },
+      { "q": "How does the voice cloning work? Is it safe?", "a": "You record just 30 seconds of yourself speaking naturally. ElevenLabs — the world leader in voice AI — creates a professional clone of your voice for all 32 pages of narration. The clone is stored only on your account and is never shared." },
+      { "q": "How long does it take to generate a book?", "a": "Story generation takes about 30 seconds. Image generation (32 pages) takes 8–15 minutes. Voice (if ordered) takes another 5–10 minutes. You'll receive an email the moment your book is ready." },
+      { "q": "Is every book truly unique?", "a": "Every single book is 100% unique. Claude AI generates a completely new story each time using the child's specific name, age, job, theme, best friend, pet, culture, and more." },
+      { "q": "What photo quality do I need?", "a": "Any recent, clear photo where the child's face is visible and well-lit works well. The face should ideally take up at least 30% of the photo. A normal smartphone portrait photo is perfect." },
+      { "q": "How is the printed book delivered?", "a": "Printed books are fulfilled by Gelato, our global print-on-demand partner with printing facilities in 32 countries. 5–7 business days standard, 2–3 days rush. Arrives in a premium gift-ready box." },
+      { "q": "Can I order in a language other than English?", "a": "Yes — we support 50+ languages. The story is generated directly in your chosen language by Claude's multilingual model." },
+      { "q": "Can I preview the book before paying?", "a": "Yes. After the AI generates your book, you can preview all 32 pages before choosing your tier and completing payment. You only pay once you love what you see." },
+      { "q": "What is your refund policy?", "a": "Digital books: full refund within 24 hours if you haven't downloaded the file. Printed books: full reprint or refund if the print quality is damaged. We stand fully behind every book we create." }
+    ]
+  }
+}

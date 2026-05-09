@@ -1,0 +1,105 @@
+version: '3.9'
+
+services:
+  # ─── MongoDB ────────────────────────────────────────────
+  # Comment out if using MongoDB Atlas (cloud)
+  # mongo:
+  #   image: mongo:7.0
+  #   container_name: hero-kids-mongo
+  #   restart: unless-stopped
+  #   ports:
+  #     - "27017:27017"
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: admin
+  #     MONGO_INITDB_ROOT_PASSWORD: password
+  #     MONGO_INITDB_DATABASE: hero-kids-storylab
+  #   volumes:
+  #     - mongo_data:/data/db
+  #   networks:
+  #     - hero-kids-net
+
+  # ─── Redis ──────────────────────────────────────────────
+  redis:
+    image: redis:7.2-alpine
+    container_name: hero-kids-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    networks:
+      - hero-kids-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── Backend API ────────────────────────────────────────
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: hero-kids-server
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    networks:
+      - hero-kids-net
+    command: node server.js
+
+  # ─── Queue Worker ────────────────────────────────────────
+  worker:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: hero-kids-worker
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    networks:
+      - hero-kids-net
+    command: node workers/processor.js
+
+  # ─── Frontend ────────────────────────────────────────────
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: hero-kids-client
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - server
+    networks:
+      - hero-kids-net
+
+volumes:
+  redis_data:
+    driver: local
+  # mongo_data:
+  #   driver: local
+
+networks:
+  hero-kids-net:
+    driver: bridge

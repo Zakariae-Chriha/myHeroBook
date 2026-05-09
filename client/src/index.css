@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg-primary text-white font-body antialiased;
+    background-color: #0A0E1A;
+    /* Prevent horizontal overflow on all screens */
+    overflow-x: hidden;
+    /* Support safe areas for iPhones with notch/dynamic island */
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0A0E1A;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #C9A84C;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E8C76B;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gold-gradient text-bg-primary font-semibold px-6 py-3 rounded-xl
+           shadow-gold-glow hover:shadow-gold-glow-lg transition-all duration-300
+           hover:scale-105 active:scale-95 cursor-pointer;
+  }
+
+  .btn-secondary {
+    @apply border border-gold text-gold font-semibold px-6 py-3 rounded-xl
+           hover:bg-gold hover:text-bg-primary transition-all duration-300 cursor-pointer;
+  }
+
+  .card {
+    @apply bg-bg-secondary rounded-2xl shadow-card border border-white/5;
+  }
+
+  .input-field {
+    @apply w-full bg-bg-primary border border-white/10 rounded-xl px-4 py-3 text-white
+           placeholder-muted focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold
+           transition-all duration-200;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-cream mb-1.5;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-heading font-bold text-white leading-tight;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-muted mt-4 max-w-2xl mx-auto;
+  }
+
+  .gold-text {
+    @apply text-transparent bg-clip-text bg-gold-gradient;
+  }
+}
+
+@layer utilities {
+  .text-shadow-gold {
+    text-shadow: 0 0 30px rgba(201, 168, 76, 0.5);
+  }
+
+  .gradient-border {
+    position: relative;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #C9A84C, #E8C76B);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+}

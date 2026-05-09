@@ -1,0 +1,16 @@
+{
+  "name": "hero-kids-storylab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:client": "cd client && npm install --legacy-peer-deps && npm run build",
+    "build:server": "cd server && npm install --omit=dev",
+    "build:all": "npm run build:client && npm run build:server",
+    "start": "cd server && node server.js",
+    "dev": "cd server && npm run dev"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}
